@@ -19,7 +19,7 @@ p {
 .tym {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 5px;
+	margin: 0;
 	padding: 0;
 }
 
