@@ -9,7 +9,7 @@ body {
 
 h1 {
 	text-align: center;
-	margin: 2%;
+	margin: 20px 0 0 0;
 }
 
 p {
@@ -34,7 +34,7 @@ p {
 	border-radius: 10px;
 	box-shadow: lightblue 1px 1px 3px;
 	padding: 2%;
-	margin: 1%;
+	margin: 10px;
 	flex-direction: column;
 	align-items: center;
 }
@@ -54,6 +54,10 @@ img {
 		text-align: left;
 		margin-left: 10px;
 	}
+
+	.tym {
+		margin: 0 30px;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -66,5 +70,9 @@ img {
 	.popis {
 		text-align: center;
 		margin: 0;
+	}
+
+	.tym {
+		margin: 20px 0;
 	}
 }
